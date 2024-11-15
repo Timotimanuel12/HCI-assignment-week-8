@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim's Website</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tim's Website</a>
+            <!-- Hamburger button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><u>Click Here!</u></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Me...
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My Hobbies</a></li>
+                            <li><a class="dropdown-item" href="#">My Education</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">About Me!</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Search</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header-->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Tim's Website</h1>
+            <p class="lead">This is my Academic Journey!</p>
+            <a href="something" class="btn btn-light">Learn More...</a>
+        </div>
+    </header>
+
+    <main class="container my-5"> <!--Cards-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Comsci.webp" class="card-img-top"><!--Binus part-->
+                    <div class="card-body">
+                        <h5 class="card-title">Student at Binus University</h5>
+                        <p class="card-text">As a BINUS University International Computer Science student, I am passionate about exploring cutting-edge technologies, solving complex problems, and building innovative solutions. 
+                                             My education focuses on a global perspective, blending technical expertise with critical thinking and collaboration, preparing me for a dynamic career in tech.</p>
+                        <a class="btn btn-primary">More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Timo.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Travelling</h5><!--travelling part-->
+                        <p class="card-text">Traveling opens up a world of experiences, from exploring new cultures and tasting unique cuisines to discovering breathtaking landscapes. 
+                                             Each journey offers a fresh perspective, enriching the mind and soul. Whether it's a spontaneous weekend getaway or a well-planned adventure, the thrill of the unknown fuels my passion for travel. 
+                                             Through this hobby, I find joy in stepping out of my comfort zone, meeting new people, and creating unforgettable memories. 
+                                             Traveling isn't just a hobby—it's a way of life that keeps me curious and connected to the world.</p>
+                        <a class="btn btn-primary">More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Key.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Music</h5> <!--music part-->
+                        <p class="card-text">Music has always been my creative outlet, offering a perfect balance to my daily routine. 
+                                             Whether I'm exploring new genres or playing my favorite instrument, music allows me to express myself in unique ways. 
+                                             From the intricate melodies of classical compositions to the energetic beats of modern tunes, I love discovering the endless possibilities music brings. 
+                                             It’s not just a hobby but a passion that fuels my creativity and keeps me inspired.</p>
+                        <a class="btn btn-primary">More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Tim's Website. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-white">Privacy Policy</a></li>
+                <li class="list-inline-item"><a class="text-white">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
